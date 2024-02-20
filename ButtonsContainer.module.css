@@ -1,0 +1,22 @@
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: blueviolet;
+    border: 3px solid rgb(52, 23, 82);
+    border-radius: 5px;
+}
+.button:hover{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: rgb(186, 152, 217);
+    border: 3px solid rgb(42, 21, 63);
+    border-radius: 5px;
+}
